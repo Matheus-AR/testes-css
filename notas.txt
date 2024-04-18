@@ -1,0 +1,13 @@
+propriedades flexbox
+- display (flex | inline-flex)
+- flex-direction (row | row-reverse | column | column-reverse)
+- flex-wrap (wrap | wrap-reverse | nowrap)
+- flex-flow : combinar as propriedades flex-direction e flex-wrap
+- justify-content (flex-start | flex-end | center | space-between | space-around | space-evenly)
+- align-items (flex-start | flex-end | center | stretch | baseline)
+
+
+Estilo de Escrita e flexbox
+- o flex-direction leva em consideração o estilo de escrita em que se está trabalhando no projeto para definir se, flex-direction: row deve ser da esquerda para direita, ou da direita para a esquerda.
+- estilo de escrita (Ocidental - LTR)
+- estilo de escrita (Oriental - RTL)
