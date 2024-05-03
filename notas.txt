@@ -5,7 +5,10 @@ propriedades flexbox
 - flex-flow : combinar as propriedades flex-direction e flex-wrap
 - justify-content (flex-start | flex-end | center | space-between | space-around | space-evenly)
 - align-items (flex-start | flex-end | center | stretch | baseline)
-
+- flex-grow ( valores positivos ): o elemento ocupa espaço que sobra do elemento pai
+- flex-shrink: diminui o tamanho do item para caber dentro do elemento pai
+- flex-basis: define o tamanho inicial dos itens do flexbox. pode ter valor absoluto ou relativo. Irá sobrescrever a height e a width do elemento. Ele irá respeitar o max-height, o max-width, min-height e o min-width.
+- flex: shorthand. ordem: flex-grow, flex-shrink e flex-basis.
 
 Estilo de Escrita e flexbox
 - o flex-direction leva em consideração o estilo de escrita em que se está trabalhando no projeto para definir se, flex-direction: row deve ser da esquerda para direita, ou da direita para a esquerda.
