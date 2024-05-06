@@ -9,6 +9,23 @@ propriedades flexbox
 - flex-shrink: diminui o tamanho do item para caber dentro do elemento pai
 - flex-basis: define o tamanho inicial dos itens do flexbox. pode ter valor absoluto ou relativo. Irá sobrescrever a height e a width do elemento. Ele irá respeitar o max-height, o max-width, min-height e o min-width.
 - flex: shorthand. ordem: flex-grow, flex-shrink e flex-basis.
+- flex: initial <flex: 0 1 auto>
+- flex: auto <flex: 1 1 auto>
+- flex: none <flex: 0 0 auto>
+- flex: 1 <flex: 1 1 auto>
+- flex: 2 <flex: 2 1 auto>
+- flex: 20px <flex: 1 1 20px>
+- align-self: 
+
+
+
+
+Materiais de Apoio
+- Flexbox Froggy
+- A Complete Guide to Flexbox
+- Flexbox - Guia Completo (Origamid)
+- Conceitos básicos de flexbox
+- Learn CSS - flexbox
 
 Estilo de Escrita e flexbox
 - o flex-direction leva em consideração o estilo de escrita em que se está trabalhando no projeto para definir se, flex-direction: row deve ser da esquerda para direita, ou da direita para a esquerda.
